@@ -520,9 +520,16 @@ describe GameObj do
 
     describe "Sanctum of Scales" do
       [
-        %[oblong blue goldstone],
+        %[blackish blue idocrase],
         %[dull grey crystal],
+        %[faceted blood red sandruby],
+        %[formation of rainbowed bismuth],
+        %[oblong blue goldstone],
+        %[piece of striated fluorite],
         %[pink salt crystal],
+        %[radiant green cinderstone],
+        %[square of shale rock],
+        %[variegated violet tanzanite],
       ].each do |gem|
         it "recognizes #{gem} as a gem" do
           expect(GameObjFactory.item_from_name(gem).type).to eq "gem"

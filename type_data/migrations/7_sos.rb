@@ -17,6 +17,16 @@ migrate :gem, :gemshop do
   insert(:name, %[pink salt crystal])
 end
 
+migrate :gemshop do
+  insert(:name, %[blackish blue idocrase])
+  insert(:name, %[faceted blood red sandruby])
+  insert(:name, %[formation of rainbowed bismuth])
+  insert(:name, %[piece of striated fluorite])
+  insert(:name, %[radiant green cinderstone])
+  insert(:name, %[square of shale rock])
+  insert(:name, %[variegated violet tanzanite])
+end
+
 migrate :skin, :furrier do
   insert(:name, %[sidewinder scale])
 end
