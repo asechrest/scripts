@@ -18,7 +18,9 @@ migrate :gem, :gemshop do
 end
 
 migrate :gemshop do
+  insert(:name, %[age-darkened ivory crescent])
   insert(:name, %[blackish blue idocrase])
+  insert(:name, %[cloudy alexandrite shard])
   insert(:name, %[faceted blood red sandruby])
   insert(:name, %[formation of rainbowed bismuth])
   insert(:name, %[piece of striated fluorite])
