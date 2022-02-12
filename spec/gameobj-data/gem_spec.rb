@@ -520,7 +520,9 @@ describe GameObj do
 
     describe "Sanctum of Scales" do
       [
+        %[age-darkened ivory crescent],
         %[blackish blue idocrase],
+        %[cloudy alexandrite shard],
         %[dull grey crystal],
         %[faceted blood red sandruby],
         %[formation of rainbowed bismuth],

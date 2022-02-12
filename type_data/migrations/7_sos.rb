@@ -22,6 +22,7 @@ migrate :gemshop do
   insert(:name, %[blackish blue idocrase])
   insert(:name, %[cloudy alexandrite shard])
   insert(:name, %[faceted blood red sandruby])
+  insert(:name, %[fossilized bessho lizard spur])
   insert(:name, %[formation of rainbowed bismuth])
   insert(:name, %[piece of striated fluorite])
   insert(:name, %[radiant green cinderstone])
